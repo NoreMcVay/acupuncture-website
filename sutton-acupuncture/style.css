@@ -16,20 +16,20 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 40px;
-      z-index:2; /*!! this fixes the map and animate to go under sticky navbar*/
+      z-index:2; 
 }
 
 .nav a:hover {
-          background-color: rgba(0, 0, 0, 0);/*invisible color*/;
+          background-color: rgba(0, 0, 0, 0);
           color: #D8BFD8;
       }
  
 nav ul {
-      line-height: 40px;/*size of menu on desktop*/
+      line-height: 40px;
       list-style: none;
-      background: whitesmoke;/*menu color desktop 1 of 2 required to work*/
+      background: whitesmoke;
       overflow: hidden;
-      color: whitesmoke;/*menu colour desktop 2 of 2 required to work*/
+      color: whitesmoke;
       padding: 0;
       text-align: right;
       margin: 0;
@@ -39,7 +39,7 @@ nav ul {
 
  
 nav.black ul {
-      background: whitesmoke; /*when you start scrolling, THIS is the colour*/
+      background: whitesmoke; 
 }
  
 nav ul li {
@@ -51,13 +51,13 @@ nav ul li {
 nav ul li a {
       text-decoration: none;
       color: black;
-      font-size: 22px; /*size of menu font size*/
+      font-size: 22px; 
 }
  
 .menu-icon {
-      line-height: 40px;/* height of nav/menu on mobile*/
+      line-height: 40px;
       width: 100%;
-      background: black; /* nav color on mobile*/
+      background: black; 
       text-align: right;
       box-sizing: border-box;
       padding: 15px 24px;
@@ -257,7 +257,7 @@ nav ul li a {
   font-weight: lighter;
   color: white;
   width: 100%;
-  height: 100vh; /* this was changed from 100vh */
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -297,7 +297,7 @@ nav ul li a {
 .arrow {
   cursor: pointer;
   position: absolute;
-  top: 10%; /*this moves the arrows on the slider*/
+  top: 10%; 
   margin-top: -35px;
   width: 0;
   height: 0;
@@ -336,7 +336,7 @@ nav ul li a {
       font-weight: lighter;
       color: white;
       width: 100%;
-      height: 800px; /* this was changed from 100vh */
+      height: 800px; 
       overflow-x: hidden;
     }
 
@@ -348,7 +348,7 @@ nav ul li a {
  
       nav ul {
             max-height: 0px;
-            background: whitesmoke; /*colour of mobile menu list*/
+            background: whitesmoke;
             color: whitesmoke;
       }
  
@@ -369,8 +369,8 @@ nav ul li a {
  
       .menu-icon {
             display: block;
-            background-color: whitesmoke;/*nav colouuuuur*/
-            color: grey; /* hamburger colour*/
+            background-color: whitesmoke;
+            color: grey; 
 
       }
 
