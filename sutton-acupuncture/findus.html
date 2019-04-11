@@ -1,0 +1,128 @@
+<html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Khadra Acupuncture Sutton</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+      <!-- font awesome link above ^ is for hamburger icon itself! -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <!--jquery script code above ^ is needed for hamburger icon to work!!! -->
+      <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<STYLE>A {text-decoration: none;} </STYLE>
+<body>
+            <div class="findusPage"> 
+
+                  <nav class="nav"> 
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i> <!--font awesome 
+                                                                  for hamburger-->
+                        </div>
+
+                        <div class="logo">
+                              
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="treatments.html">Treatments</a></li>
+                                    <li><a href="dermaluxtreatment.html">Dermalux</a></li>
+                                    <li><a href="prices.html">Prices</a></li>
+                                    <li><a href="findus.html">Find Us</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </div>
+
+           
+
+            <div>
+                 <div id="map"></div>
+            </div>                               
+                                
+            <div class="content">
+                  <div class= "centerText">
+                        <h3 class="animated bounce"> Khadra McVay </h3>
+
+                        <p>Bsc(Hons) Chinese Medicine - Acupuncture</p>
+
+                        <div class="socialLogos">
+                              <a href="http://www.instagram.com/khadra.acupuncture.sutton">
+                                <img src="images/instalogo.jpg" class="socialLogo" alt="instagram logo"><span class="makePurple"></span>
+                              </a>
+                              <a href="http://www.facebook.com/Suttonacupuncture.Surrey">
+                                <img src="images/fblogo.jpg" class="socialLogo" alt="facebook logo"><span class="makePurple"></span>
+                              </a> 
+                        </div>
+                        
+                      
+                        <h5>Address:</h5>
+
+                        <p> Sutton Sports Injury and Physio Clinic</p>
+                        <p> Rosehill Park,
+                        Sutton
+                        Surrey
+                        SM1 3HH</p>
+                        <p>0208 8254 2150</p>
+      
+
+                        <h5>also at:</h5>
+
+                        <p> 170 Carshalton Road,
+                        Sutton
+                        Surrey
+                        SM1 4RS</p>
+                            
+
+                            
+
+                        <p> Enquire about booking an appointment:
+                        <a href="mailto:khadramcvay@hotmail.com"><span class="makePurple">khadramcvay@hotmail.com</span></a>
+                        </p>
+                  
+
+                        <p>Contact Number:07920408821</p>
+                  </div>
+            </div>
+            
+
+            
+     
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+      <script type="text/javascript" src="js.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAEMGGwGLPEYSKYlFrDJpjHTV-wGqJDls&callback=initMap"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+</html>

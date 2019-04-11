@@ -1,0 +1,444 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+      color: black;
+}
+ 
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+ 
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+      z-index:2; /*!! this fixes the map and animate to go under sticky navbar*/
+}
+
+.nav a:hover {
+          background-color: rgba(0, 0, 0, 0);/*invisible color*/;
+          color: #D8BFD8;
+      }
+ 
+nav ul {
+      line-height: 40px;/*size of menu on desktop*/
+      list-style: none;
+      background: whitesmoke;/*menu color desktop 1 of 2 required to work*/
+      overflow: hidden;
+      color: whitesmoke;/*menu colour desktop 2 of 2 required to work*/
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 10px,10px;
+      transition: 1s;
+}
+
+ 
+nav.black ul {
+      background: whitesmoke; /*when you start scrolling, THIS is the colour*/
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;
+      color: orange;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 22px; /*size of menu font size*/
+}
+ 
+.menu-icon {
+      line-height: 40px;/* height of nav/menu on mobile*/
+      width: 100%;
+      background: black; /* nav color on mobile*/
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+
+
+.indexPage {
+      width: 10%;
+      height: 6vh;
+}
+
+.indexImage {
+      width: 100%;
+      height:auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.indexxxPicture {
+  width: 780px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  border-radius: 5px;
+
+}
+
+.centerHeadings {
+      text-align: center;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.baccLogo {
+  width: 300px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+}
+
+.treatmentsPage {
+    width: 10%;
+    height: 6vh;
+}
+
+.fertilityPicture {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cuppingPicture {
+  width: 600px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cosmeticPicture {
+  width: 600px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.microDerma {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dermaRoller {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dermaluxPage {
+  width:10%;
+  height:6vh;
+}
+
+.dermaluxPicture {
+  width: 500px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricesPage {
+  width:10%;
+  height:6vh;
+}
+
+.findusPage {
+  width:10%;
+  height:6vh;
+}
+
+.mumPic {
+  width:200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dermaLogo {
+  width:200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+}
+
+
+.findUsPage {
+      width: 10%;
+      height: 6vh;
+}
+
+
+.socialLogo {
+     display: inline-block;
+     margin-left: 15px;
+     margin-right: 15px;
+     height: 50px; 
+     width:50px;
+}
+
+
+.video-container {
+    height: 400px;
+    width: auto;
+}
+
+ 
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+ 
+.logo {
+      line-height: 30px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff; 
+      font-weight: bold;
+      font-size: 10px;
+      letter-spacing: 1px;
+}
+
+.minusMarginTop {
+  margin-top: -40px;
+}
+
+
+
+#map {
+      height:300px;
+      width: 100%;
+}
+
+/*testimonial*/
+
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+  color: white;
+  width: 100%;
+  height: 100vh; /* this was changed from 100vh */
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("images/testimonialwallpaper.jpg");
+}
+.slide2 {
+  background-image: url("images/testimonialwallpaper.jpg");
+}
+.slide3 {
+  background-image: url("images/testimonialwallpaper.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 10%; /*this moves the arrows on the slider*/
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent white transparent transparent;
+  left: 0;
+  margin-left: 30px}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent white;
+  right: 0;
+  margin-right: 30px;
+}
+
+.makePurple {
+  color: #EE82EE;
+}
+
+
+
+@media(max-width: 650px) {
+
+
+
+    #slider,
+    .wrap,
+    .slide-content {
+      margin: 0;
+      padding: 0;
+      font-family: font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      color: white;
+      width: 100%;
+      height: 800px; /* this was changed from 100vh */
+      overflow-x: hidden;
+    }
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: whitesmoke; /*colour of mobile menu list*/
+            color: whitesmoke;
+      }
+ 
+      nav.black ul {
+            background: #000;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+            background-color: whitesmoke;/*nav colouuuuur*/
+            color: grey; /* hamburger colour*/
+
+      }
+
+
+      .indexxxPicture {
+        width: 100%;
+        height:auto;
+      }
+
+      .baccLogo {
+        width: 200px;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+      }
+
+
+      .dermaluxPicture {
+        width: 100%;
+        height:auto;
+      }
+
+      .fertilityPicture {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .cuppingPicture {
+        width: 100%;
+        height: auto;
+      }
+
+      .cosmeticPicture {
+        width: 100%;
+        height:auto;
+      }
+
+      .microDerma {
+        width:100%;
+        height: auto;
+      }
+
+      .dermaRoller {
+        width:100%;
+        height: auto;
+      }
+
+      .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px; height: 0; overflow: hidden;
+      }
+      .video-container iframe,
+      .video-container object,
+      .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      }
+
+ 
+} 
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Khadra Acupuncture Sutton</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+      <!-- font awesome link above ^ is for hamburger icon itself! -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <!--jquery script code above ^ is needed for hamburger icon to work!!! -->
+      <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>       
+
+            <div class="dermaluxPage"> 
+
+                  <nav class="nav">
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i> <!--font awesome 
+                                                                  for hamburger-->
+                        </div>
+
+                        <div class="logo">      
+                        </div>
+
+                        <div class="menu">
+                               <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="treatments.html">Treatments</a></li>
+                                    <li><a href="dermaluxtreatment.html">Dermalux</a></li>
+                                    <li><a href="prices.html">Prices</a></li>
+                                    <li><a href="findus.html">Find Us</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </div> 
+
+            <img src="images/indexpic.jpg" class="indexxxPicture">
+
+
+            <div class="content"> 
+
+              <img src="images/bacclogo.jpg" class="baccLogo">
+              
+                 <h2 class="centerHeadings animated bounce">Sutton Acupuncture & Cosmetic Clinic</h2>
+             
+
+                <p> Khadra McVay graduated with BSc (Honours) at the University of Westminster where she studied Traditional Chinese Medicine that included acupuncture, Tui Na (an ancient form of manipulative therapy), cupping and moxibustion. Khadra has also undergone a substantial training in western medical science; anatomy, physiology and pathology, and is now a member of British Acupuncture Council (BAcC).</p>                                
+                    
+                 <p> At the University of Westminster Khadra's clinical training involved treating a wide variety of conditions within the University Polyclinic setting as well as completing an NHS placement at the Gateway Clinic, where she treated patients who had been referred by their GPs. These patients would often be suffering from chronic conditions of all kinds. By understanding each patient's needs, Khadra ensures that her patients get the best possible tailor-made treatment and support.</p>
+
+                 <img src= "images/mumpic.jpg" class="mumPic">
+                    
+                 <p> Khadra has keen interest in women's health especially in; digestive disorders, infertility, migraine headaches, sports injuries, joint issues and support with pain before and after hip, knee or back sugery.</p>
+                    
+                 <p> Having treated many facial complaints such as Bells Palsy, psoriasis and other skin complaints, Khadra has recently decided to embark on a cosmetic acupuncture course and combined this with a photo LED light therapy which not only helps with skin rejuvenation but also helps to heal other skin complaints.</p>
+
+            </div>
+
+
+            <!--code for javascript testimonial slider when click -->
+            <div class="wrap">
+              <div id="arrow-left" class="arrow"></div>
+              <div id="slider">
+                <div class="slide slide1">
+                  <div class="slide-content adjustingSliderArrows ">
+                    <br/>
+                    <h3><i>Testimonials</i></h3>
+                    <p>Thanks to Khadra’s great work doing acupuncture, moxa and giving me great advice on other aspects of Traditional Chinese Medicine like diet and relaxation, I feel so much better now. Conventional western medicine suggested surgery of my large intestine in November 2013 due to severe Crohn’s disease. However, with Khadra’s help my body is starting a healing journey that is beyond what I could have imagined possible. I had initially consulted Khadra in January 2014 having had a very swollen knee at that time which is one of the side effects of having Crohn’s. I also chose Khadra as she has specialized knowledge of treating digestive disorders with acupuncture. Both conditions have stabilized and we are working together to regain full strength long term. Thanks again Khadra for all your great work and wisdom.</p>
+                    <p><i>Simone</i></p>
+                  </div>
+                </div>
+                <div class="slide slide2">
+                  <div class="slide-content adjustingSliderArrows">
+                    <p>I have been having treatment with Khadra for 8 months now and cannot recommend her enough. I have been suffering with Bells Palsy for 13 years and 2 years ago had a second attack. I have tried everything recommended by the NHS and the last resort was botox which I wasn't happy to try. I was told to try acupuncture by a friend and came across Khadra. I have been surprised by the results, my face is now looking softer and not so tight, but not only that I am getting movement back in my face which I never thought possible. I can move my eyebrows and smile again! Khadra also uses other aspects of Chinese and Indian medicine like Indian head massage and relaxation which also helps with general wellbeing and stress. Thanks Khadra for all your help.</p>
+                    <p><i>Frances</i></p>
+                  </div>
+                </div>
+              </div>
+              <div id="arrow-right" class="arrow"></div>
+            </div>
+
+     
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+      <script type="text/javascript" src="js.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAEMGGwGLPEYSKYlFrDJpjHTV-wGqJDls&callback=initMap"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
